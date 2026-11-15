@@ -98,3 +98,7 @@ Made something with goome? Add yours with a PR.
 ## Contributing
 
 Contributions are welcome! Read the [contributing guide](contributing.md) first.
+
+Thanks to everyone who helped out:
+
+<a href="https://github.com/goome-ui/awesome-goome/graphs/contributors"><img src="https://contrib.rocks/image?repo=goome-ui/awesome-goome" alt="contributors"></a>
