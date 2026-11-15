@@ -1,0 +1,42 @@
+name: pr rules
+
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize, edited]
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  check:
+    if: >-
+      github.event.pull_request.state == 'open' &&
+      github.event.pull_request.author_association != 'OWNER' &&
+      github.event.pull_request.author_association != 'MEMBER'
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          PR: ${{ github.event.pull_request.number }}
+          BASE: ${{ github.event.pull_request.base.ref }}
+        run: |
+          why=""
+          if [ "$BASE" != "dev" ]; then
+            why="PRs go to the dev branch, this one is against $BASE."
+          fi
+          files=$(gh api "repos/$REPO/pulls/$PR/files?per_page=100" --paginate --jq '.[] | .filename, (.previous_filename // empty)')
+          if printf '%s\n' "$files" | grep -vqx 'readme\.md'; then
+            why="$why It changes something other than readme.md. New entries only need a line in readme.md, everything else here only I change."
+          fi
+          if [ -z "$why" ]; then
+            echo "follows the rules"
+            exit 0
+          fi
+          gh api "repos/$REPO/labels" -f name=rules-closed -f color=b60205 -f description="closed by the pr rules" >/dev/null 2>&1 || true
+          gh api "repos/$REPO/issues/$PR/comments" -f body="Thanks for adding to the list! This got closed automatically though, sorry. $why Check [contributing.md](https://github.com/goome-ui/awesome-goome/blob/dev/contributing.md), fix it and open a new PR against dev." >/dev/null
+          gh api "repos/$REPO/issues/$PR/labels" -f "labels[]=rules-closed" >/dev/null
+          gh api -X PATCH "repos/$REPO/pulls/$PR" -f state=closed >/dev/null
+          echo "closed: $why"
