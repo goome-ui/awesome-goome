@@ -94,6 +94,7 @@ Made something with goome? Add yours with a PR.
 - [crosshair download](https://goome-ui.github.io/docs/downloads/#crosshair) - Aim overlay for any game.
 - [sticky download](https://goome-ui.github.io/docs/downloads/#sticky) - Notes that sit on top of everything.
 - [keyviz download](https://goome-ui.github.io/docs/downloads/#keyviz) - Key and click viewer for recordings.
+- [Sev's Mod Manager](https://github.com/sevvy-wevvy/sevs-mod-manager) - Mod manager for nearly any Unity game (Gorilla Tag, ULTRAKILL, REPO, BONELAB and more) on Linux, Windows and macOS, with three layouts and five themes.
 
 ## Contributing
 
