@@ -3,7 +3,7 @@
 
 <a href="https://goome-ui.github.io/docs/"><img src="https://raw.githubusercontent.com/goome-ui/.github/main/profile/logo.png" align="right" width="100" alt="goome"></a>
 
-> See-through, always on top overlays and UI in C, with C#, Python, Java and Godot bindings.
+> See-through overlays, normal app windows, game mod menus and engine ui for any C program. One file, no dependencies, Linux, Windows, Mac.
 
 goome draws on a click-through layer over every other window. Only what you draw takes clicks, the rest goes to whatever is under it. It runs on Linux (X11 and Wayland), Windows and macOS, and it also works inside games and engines.
 
