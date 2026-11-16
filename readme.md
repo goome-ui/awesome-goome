@@ -25,6 +25,11 @@ goome draws on a click-through layer over every other window. Only what you draw
 - [python-goome](https://github.com/goome-ui/python-goome) - Python bindings over ctypes, nothing to build.
 - [java-goome](https://github.com/goome-ui/java-goome) - Java 22+ bindings over FFM or LWJGL.
 - [godot-goome](https://github.com/goome-ui/godot-goome) - GDExtension addon for Godot.
+- [rust-goome](https://github.com/goome-ui/rust-goome) - Rust crates, `goome` on top and `goome-sys` for the raw C.
+- [node-goome](https://github.com/goome-ui/node-goome) - Node N-API addon with prebuilds for every OS.
+- [go-goome](https://github.com/goome-ui/go-goome) - Go bindings over cgo.
+- [zig-goome](https://github.com/goome-ui/zig-goome) - Zig package that builds goome.h with zig cc.
+- [lua-goome](https://github.com/goome-ui/lua-goome) - Lua 5.4 and LuaJIT module, works in LOVE too.
 
 ## Apps
 
@@ -38,8 +43,8 @@ Ready to use downloads for Linux, Windows and macOS are on the [examples release
 ## Templates and Tools
 
 - [goome-cli](https://github.com/goome-ui/goome-cli) - `goome new` makes a project from a template in any of the languages.
-- [vscode-goome](https://github.com/goome-ui/vscode-goome) - VS Code extension with snippets, hover docs, a new project command and a builder preview.
-- [jetbrains-goome](https://github.com/goome-ui/jetbrains-goome) - Rider and JetBrains plugin with live templates, a new project command and a builder preview.
+- [vscode-goome](https://github.com/goome-ui/vscode-goome) - VS Code extension with a side panel, snippets, hover docs, a new project command and a builder preview.
+- [jetbrains-goome](https://github.com/goome-ui/jetbrains-goome) - Rider and JetBrains plugin with a tool window, live templates, a new project command and a builder preview.
 - [goome-app-template-c](https://github.com/goome-ui/goome-app-template-c) - C app with an overlay toggle, plus overlay, mod menu and HUD versions.
 - [goome-app-template-csharp](https://github.com/goome-ui/goome-app-template-csharp) - C# app with the same four starting points.
 - [goome-app-template-python](https://github.com/goome-ui/goome-app-template-python) - Python app with the same four starting points.
@@ -53,6 +58,7 @@ Ready to use downloads for Linux, Windows and macOS are on the [examples release
 - [Unity mods](https://github.com/goome-ui/csharp-goome/tree/main/mods) - Mod menu and templates for BepInEx 5, BepInEx 6 and MelonLoader.
 - [Minecraft mods](https://github.com/goome-ui/java-goome/tree/main/minecraft) - Fabric and NeoForge mods that draw goome in the game.
 - [Godot addon](https://github.com/goome-ui/godot-goome/tree/main/addons/goome) - The addon folder to drop into a Godot project.
+- [obs-goome](https://github.com/goome-ui/obs-goome) - OBS Studio source that draws a goome ui in your stream, and you can click it.
 - [raylib](https://github.com/goome-ui/examples/tree/main/engines/raylib) - Offscreen goome drawn in raylib's GL context.
 - [SDL2 + OpenGL 3](https://github.com/goome-ui/examples/tree/main/engines/sdl_gl3) - The SDL platform backend with the GL3 renderer.
 - [LÖVE](https://github.com/goome-ui/examples/tree/main/engines/love2d) - LuaJIT ffi to the goome shared library inside love2d.
@@ -74,8 +80,18 @@ Ready to use downloads for Linux, Windows and macOS are on the [examples release
 - [Getting started in Java](https://goome-ui.github.io/docs/start-java/) - First overlay in Java.
 - [Getting started in Godot](https://goome-ui.github.io/docs/start-godot/) - First overlay in Godot.
 - [Getting started in Unity](https://goome-ui.github.io/docs/start-unity/) - First overlay in Unity.
+- [Getting started in Rust](https://goome-ui.github.io/docs/start-rust/) - First overlay in Rust.
+- [Getting started in Node](https://goome-ui.github.io/docs/start-node/) - First overlay in Node.
+- [Getting started in Go](https://goome-ui.github.io/docs/start-go/) - First overlay in Go.
+- [Getting started in Zig](https://goome-ui.github.io/docs/start-zig/) - First overlay in Zig.
+- [Getting started in Lua](https://goome-ui.github.io/docs/start-lua/) - First overlay in Lua.
 - [The three modes](https://goome-ui.github.io/docs/modes/) - Overlay, window and offscreen modes.
 - [UI kit](https://goome-ui.github.io/docs/ui/) - How the built in widgets work.
+- [Animations](https://goome-ui.github.io/docs/animations/) - Moving numbers and colors with springs, bounces and the other eases.
+- [Emoji and RTL](https://goome-ui.github.io/docs/emoji-rtl/) - Color emoji, font fallback, Arabic and Hebrew.
+- [IME](https://goome-ui.github.io/docs/ime/) - Japanese, Chinese and Korean input and dead keys.
+- [Accessibility](https://goome-ui.github.io/docs/accessibility/) - Screen readers on Linux, Windows and macOS.
+- [OBS plugin](https://goome-ui.github.io/docs/obs/) - goome as a source in OBS Studio.
 - [How mods work](https://goome-ui.github.io/docs/mods/) - Mods for games and engines, and the anti-cheat line.
 - [Templates and goome new](https://goome-ui.github.io/docs/templates/) - Starting a project from a template.
 - [Where it works](https://goome-ui.github.io/docs/platforms/) - Desktops, compositors and what each one supports.
