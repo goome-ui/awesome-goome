@@ -39,6 +39,7 @@ Ready to use downloads for Linux, Windows and macOS are on the [examples release
 
 - [goome-cli](https://github.com/goome-ui/goome-cli) - `goome new` makes a project from a template in any of the languages.
 - [vscode-goome](https://github.com/goome-ui/vscode-goome) - VS Code extension with snippets, hover docs, a new project command and a builder preview.
+- [jetbrains-goome](https://github.com/goome-ui/jetbrains-goome) - Rider and JetBrains plugin with live templates, a new project command and a builder preview.
 - [goome-app-template-c](https://github.com/goome-ui/goome-app-template-c) - C app with an overlay toggle, plus overlay, mod menu and HUD versions.
 - [goome-app-template-csharp](https://github.com/goome-ui/goome-app-template-csharp) - C# app with the same four starting points.
 - [goome-app-template-python](https://github.com/goome-ui/goome-app-template-python) - Python app with the same four starting points.
