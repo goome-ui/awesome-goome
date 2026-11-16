@@ -50,6 +50,11 @@ Ready to use downloads for Linux, Windows and macOS are on the [examples release
 - [goome-app-template-python](https://github.com/goome-ui/goome-app-template-python) - Python app with the same four starting points.
 - [goome-app-template-java](https://github.com/goome-ui/goome-app-template-java) - Java app with the same four starting points.
 - [goome-app-template-godot](https://github.com/goome-ui/goome-app-template-godot) - Godot app panel that turns into a window over the game.
+- [goome-app-template-rust](https://github.com/goome-ui/goome-app-template-rust) - Rust app with the same four starting points.
+- [goome-app-template-node](https://github.com/goome-ui/goome-app-template-node) - Node app with the same four starting points.
+- [goome-app-template-go](https://github.com/goome-ui/goome-app-template-go) - Go app with the same four starting points.
+- [goome-app-template-zig](https://github.com/goome-ui/goome-app-template-zig) - Zig app with the same four starting points.
+- [goome-app-template-lua](https://github.com/goome-ui/goome-app-template-lua) - Lua app with the same four starting points.
 - [UI builder](https://goome-ui.github.io/docs/builder/) - Drag a layout together in the browser and copy the code out.
 
 ## Mods and Engines
