@@ -1,7 +1,7 @@
 <!--lint ignore awesome-heading-->
 # Awesome goome [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-<a href="https://goome-ui.github.io/docs/"><img src="https://raw.githubusercontent.com/goome-ui/.github/main/profile/logo.png" align="right" width="100" alt="goome"></a>
+<a href="https://goome.wtf/docs/"><img src="https://raw.githubusercontent.com/goome-ui/.github/main/profile/logo.png" align="right" width="100" alt="goome"></a>
 
 > See-through overlays, normal app windows, game mod menus and engine ui for any C program. One file, no dependencies, Linux, Windows, Mac.
 
@@ -55,7 +55,7 @@ Ready to use downloads for Linux, Windows and macOS are on the [examples release
 - [goome-app-template-go](https://github.com/goome-ui/goome-app-template-go) - Go app with the same four starting points.
 - [goome-app-template-zig](https://github.com/goome-ui/goome-app-template-zig) - Zig app with the same four starting points.
 - [goome-app-template-lua](https://github.com/goome-ui/goome-app-template-lua) - Lua app with the same four starting points.
-- [UI builder](https://goome-ui.github.io/docs/builder/) - Drag a layout together in the browser and copy the code out.
+- [UI builder](https://goome.wtf/builder/) - Drag a layout together in the browser and copy the code out.
 
 ## Mods and Engines
 
@@ -78,45 +78,45 @@ Ready to use downloads for Linux, Windows and macOS are on the [examples release
 
 ## Docs and Guides
 
-- [Docs](https://goome-ui.github.io/docs/) - Everything about goome in one site.
-- [Getting started in C](https://goome-ui.github.io/docs/start-c/) - First overlay in C.
-- [Getting started in C#](https://goome-ui.github.io/docs/start-csharp/) - First overlay in C#.
-- [Getting started in Python](https://goome-ui.github.io/docs/start-python/) - First overlay in Python.
-- [Getting started in Java](https://goome-ui.github.io/docs/start-java/) - First overlay in Java.
-- [Getting started in Godot](https://goome-ui.github.io/docs/start-godot/) - First overlay in Godot.
-- [Getting started in Unity](https://goome-ui.github.io/docs/start-unity/) - First overlay in Unity.
-- [Getting started in Rust](https://goome-ui.github.io/docs/start-rust/) - First overlay in Rust.
-- [Getting started in Node](https://goome-ui.github.io/docs/start-node/) - First overlay in Node.
-- [Getting started in Go](https://goome-ui.github.io/docs/start-go/) - First overlay in Go.
-- [Getting started in Zig](https://goome-ui.github.io/docs/start-zig/) - First overlay in Zig.
-- [Getting started in Lua](https://goome-ui.github.io/docs/start-lua/) - First overlay in Lua.
-- [The three modes](https://goome-ui.github.io/docs/modes/) - Overlay, window and offscreen modes.
-- [UI kit](https://goome-ui.github.io/docs/ui/) - How the built in widgets work.
-- [Animations](https://goome-ui.github.io/docs/animations/) - Moving numbers and colors with springs, bounces and the other eases.
-- [Emoji and RTL](https://goome-ui.github.io/docs/emoji-rtl/) - Color emoji, font fallback, Arabic and Hebrew.
-- [IME](https://goome-ui.github.io/docs/ime/) - Japanese, Chinese and Korean input and dead keys.
-- [Accessibility](https://goome-ui.github.io/docs/accessibility/) - Screen readers on Linux, Windows and macOS.
-- [OBS plugin](https://goome-ui.github.io/docs/obs/) - goome as a source in OBS Studio.
-- [How mods work](https://goome-ui.github.io/docs/mods/) - Mods for games and engines, and the anti-cheat line.
-- [Templates and goome new](https://goome-ui.github.io/docs/templates/) - Starting a project from a template.
-- [Where it works](https://goome-ui.github.io/docs/platforms/) - Desktops, compositors and what each one supports.
-- [FAQ](https://goome-ui.github.io/docs/faq/) - Common questions.
+- [Docs](https://goome.wtf/docs/) - Everything about goome in one site.
+- [Getting started in C](https://goome.wtf/docs/start-c/) - First overlay in C.
+- [Getting started in C#](https://goome.wtf/docs/start-csharp/) - First overlay in C#.
+- [Getting started in Python](https://goome.wtf/docs/start-python/) - First overlay in Python.
+- [Getting started in Java](https://goome.wtf/docs/start-java/) - First overlay in Java.
+- [Getting started in Godot](https://goome.wtf/docs/start-godot/) - First overlay in Godot.
+- [Getting started in Unity](https://goome.wtf/docs/start-unity/) - First overlay in Unity.
+- [Getting started in Rust](https://goome.wtf/docs/start-rust/) - First overlay in Rust.
+- [Getting started in Node](https://goome.wtf/docs/start-node/) - First overlay in Node.
+- [Getting started in Go](https://goome.wtf/docs/start-go/) - First overlay in Go.
+- [Getting started in Zig](https://goome.wtf/docs/start-zig/) - First overlay in Zig.
+- [Getting started in Lua](https://goome.wtf/docs/start-lua/) - First overlay in Lua.
+- [The three modes](https://goome.wtf/docs/modes/) - Overlay, window and offscreen modes.
+- [UI kit](https://goome.wtf/docs/ui/) - How the built in widgets work.
+- [Animations](https://goome.wtf/docs/animations/) - Moving numbers and colors with springs, bounces and the other eases.
+- [Emoji and RTL](https://goome.wtf/docs/emoji-rtl/) - Color emoji, font fallback, Arabic and Hebrew.
+- [IME](https://goome.wtf/docs/ime/) - Japanese, Chinese and Korean input and dead keys.
+- [Accessibility](https://goome.wtf/docs/accessibility/) - Screen readers on Linux, Windows and macOS.
+- [OBS plugin](https://goome.wtf/docs/obs/) - goome as a source in OBS Studio.
+- [How mods work](https://goome.wtf/docs/mods/) - Mods for games and engines, and the anti-cheat line.
+- [Templates and goome new](https://goome.wtf/docs/templates/) - Starting a project from a template.
+- [Where it works](https://goome.wtf/docs/platforms/) - Desktops, compositors and what each one supports.
+- [FAQ](https://goome.wtf/docs/faq/) - Common questions.
 
 ## Community
 
 - [Discussions](https://github.com/goome-ui/c-goome/discussions) - Questions and things people made.
-- [Good first issues](https://goome-ui.github.io/docs/community/#good-first-issues) - Small issues in every main repo to start with.
-- [Made with goome badge](https://goome-ui.github.io/docs/badges/) - README badges for projects that use goome.
-- [Community page](https://goome-ui.github.io/docs/community/) - Where to ask, help out and show stuff.
+- [Good first issues](https://goome.wtf/docs/community/#good-first-issues) - Small issues in every main repo to start with.
+- [Made with goome badge](https://goome.wtf/docs/badges/) - README badges for projects that use goome.
+- [Community page](https://goome.wtf/docs/community/) - Where to ask, help out and show stuff.
 
 ## Made with goome
 
 Made something with goome? Add yours with a PR.
 
-- [goome-hud download](https://goome-ui.github.io/docs/downloads/#goome-hud) - System stats HUD for the desktop.
-- [crosshair download](https://goome-ui.github.io/docs/downloads/#crosshair) - Aim overlay for any game.
-- [sticky download](https://goome-ui.github.io/docs/downloads/#sticky) - Notes that sit on top of everything.
-- [keyviz download](https://goome-ui.github.io/docs/downloads/#keyviz) - Key and click viewer for recordings.
+- [goome-hud download](https://goome.wtf/docs/downloads/#goome-hud) - System stats HUD for the desktop.
+- [crosshair download](https://goome.wtf/docs/downloads/#crosshair) - Aim overlay for any game.
+- [sticky download](https://goome.wtf/docs/downloads/#sticky) - Notes that sit on top of everything.
+- [keyviz download](https://goome.wtf/docs/downloads/#keyviz) - Key and click viewer for recordings.
 - [Sev's Mod Manager](https://github.com/sevvy-wevvy/sevs-mod-manager) - Mod manager for nearly any Unity game (Gorilla Tag, ULTRAKILL, REPO, BONELAB and more) on Linux, Windows and macOS, with three layouts and five themes.
 
 ## Contributing

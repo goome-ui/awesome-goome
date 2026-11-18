@@ -23,7 +23,7 @@ Thanks for wanting to add something! Made a thing with goome, or found a good gu
 - It has to work and it has to actually use goome.
 - It has a README or a page that says what it is and how to run it.
 - No dead links, archived repos or stuff that hasnt been touched in ages.
-- No malware, cheats for online games with anti-cheat, or anything that breaks a game's rules. Read the [anti-cheat line](https://goome-ui.github.io/docs/mods/#anti-cheat) first.
+- No malware, cheats for online games with anti-cheat, or anything that breaks a game's rules. Read the [anti-cheat line](https://goome.wtf/docs/mods/#anti-cheat) first.
 
 ## Only readme.md
 
